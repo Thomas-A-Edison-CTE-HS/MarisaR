@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>junior portfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="favicon.png" rel="icon" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+</head>     
+<body>
+  <div class="banner" style="color:white">
+    <span class="open-btn" onclick="openNav()">&#9776;</span>
+    Thomas A. Edison CTE HS
+    <img src="avatar.png" id="logo">
+    <h1>Web Development</h1>
+    <h1>Programming and Prototyping</h1>
+    <h1>School Year 2024-2025</h1>
+    <h1>Marisa Ramautar</h1>
 
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="color:white">&times;</a>
+    <div class="overlay-content">
+      <a href="index.html" style="font-size: 3em;">Home</a>
+      <a href="CFU.html" style="font-size: 3em;">CFUS</a>
+      <a href="#" style="font-size: 3em;">Labs</a>
+      <a href="#" style="font-size: 3em;">Games</a>  
+    </div>
+  </div>
+  </div>
+
+<script>
+  /* Open when someone clicks on the span element */
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+
+  /* Close when someone clicks on the "x" symbol inside the overlay */
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+</script>
+</body>
+
+</html>
